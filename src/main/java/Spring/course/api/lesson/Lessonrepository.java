@@ -1,0 +1,12 @@
+package Spring.course.api.lesson;
+
+import java.util.List;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface Lessonrepository extends CrudRepository<Lesson,String>{
+
+	//public List<Course> findByName(String name);
+	//public List<Course> findByDescription(String description);
+	public List<Lesson> findByCourseId(String courseID);
+}
