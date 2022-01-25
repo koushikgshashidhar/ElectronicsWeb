@@ -1,7 +1,7 @@
 # ElectronicsWeb
 
 
-This is a Spring app using Rest_APIs to perform CRUD operations in hierarchical way in any commerce websites.
+This is a Spring app using Rest_APIs to perform CRUD operations in a hierarchical way in any commerce website.
 
 
 Eg:
